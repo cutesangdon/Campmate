@@ -9,6 +9,7 @@ function App() {
       <div className="App">
         <Router>
           <Header />
+          <h1>과제 GIT TEST</h1>
           <Routes>
             <Route path="/" element={<Navigate to="/reservation" replace />} />
             <Route path="/campingzone" element={<CampingZonePage />} />
